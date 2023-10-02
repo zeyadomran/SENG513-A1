@@ -1,0 +1,260 @@
+/* Course: SENG 513 */
+/* Date: SEPT 10, 2023 */
+/* Assignment 1 */
+/* Name: Zeyad Omran */
+/* UCID: 30096692 */
+/* Colors */
+:root {
+  --white: #fff;
+  --white-off-white: #fef9f7;
+  --light-grey: #aaabb8;
+  --grey: #7e8082;
+  --light-blue: #2e9cca;
+  --dusty-blue: #29648a;
+  --navy: #25274d;
+  --dusty-navy: #464866;
+  --black: #1f1f1f;
+  --black-off-black: #3c3c3c;
+}
+
+/* CSS Reset to ensure consitent styles */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Titillium Web", sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 8rem);
+  background-color: var(--navy);
+  padding: 0 8rem;
+  padding-right: 0;
+}
+.navbar-text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: var(--white);
+}
+.navbar-text h1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.navbar-text p {
+  font-weight: 500;
+  font-style: italic;
+}
+.navbar-btn.btn {
+  padding: 1.5rem 3rem;
+}
+
+.hero {
+  position: relative;
+  padding-bottom: 8rem;
+}
+.hero-image {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-content {
+  color: var(--white);
+  position: relative;
+  padding: 10rem 8rem;
+  z-index: 900;
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-weight: 500;
+}
+.hero-title {
+  font-size: 4rem;
+}
+.hero-body {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: var(--light-blue);
+  color: var(--white);
+  font-weight: 600;
+  border: 0;
+  outline: 0;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--dusty-blue);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 8rem;
+  gap: 2rem;
+}
+.about-title {
+  color: var(--black);
+  font-size: 2rem;
+}
+.about-body {
+  color: var(--dusty-navy);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.video {
+  display: flex;
+  padding: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--navy);
+  overflow: hidden;
+}
+.video-player {
+  width: 100%;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
