@@ -6,15 +6,15 @@
 		<!-- Assignment 1 -->
 		<!-- Name: Zeyad Omran -->
 		<!-- UCID: 30096692 -->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<link rel="preconnect" href="https://fonts.googleapis.com" >
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
 		<link
 			href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
 			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="index.css" />
+		>
+		<link rel="stylesheet" href="index.css" >
 		<title>Hi-Tech SOLN</title>
 	</head>
 	<body>
@@ -26,22 +26,25 @@
 			<button class="navbar-btn btn">SHOP</button>
 		</nav>
 		<section class="hero">
+			<picture class="hero-image">
+				<source
+					srcset="assets/top_image_small.png"
+					media="(max-width: 800px)" >
+				<source
+					srcset="assets/top_image_medium.png"
+					media="(max-width: 1100px)" >
+				<img src="assets/top_image_large.png" alt="hero image"
+			></picture>
 			<div class="hero-content">
 				<h2 class="hero-title">Lorem Ipsum dolor sit amet</h2>
 				<p class="hero-body">
 					Aenean vulputate eleifend te llus. leo ligula, porttitor eu, co
 					nsequat vitae, eleifend ac, enim.
 				</p>
+				<div>
+					<button class="hero-btn btn">SHOP</button>
+				</div>
 			</div>
-			<picture class="hero-image">
-				<source
-					srcset="assets/top_image_small.png"
-					media="(max-width: 800px)" />
-				<source
-					srcset="assets/top_image_medium.png"
-					media="(max-width: 1100px)" />
-				<img src="assets/top_image_large.png" alt="world"
-			/></picture>
 		</section>
 		<section class="about">
 			<h3 class="about-title">Who we are.</h3>
@@ -56,15 +59,22 @@
 				ipsum at consequat.
 			</p>
 		</section>
-		<section class="video">
-			<img class="video-player" src="assets/video_placeholder.png" />
-		</section>
+		<div class="video">
+			<img
+				class="video-player"
+				src="assets/video_placeholder.png"
+				alt="video"
+			>
+		</div>
 		<section class="products">
 			<h3>Custom Tech to your doorstep</h3>
 			<div class="cards">
 				<div class="card">
 					<div class="card-img-container">
-						<img src="assets/custom_tech_1_image_large.png" />
+						<img
+							src="assets/custom_tech_1_image_large.png"
+							alt="product image"
+						>
 					</div>
 					<div class="card-body">
 						<p class="card-title">Customized - Androids</p>
@@ -79,7 +89,10 @@
 				</div>
 				<div class="card">
 					<div class="card-img-container">
-						<img src="assets/custom_tech_2_image_large.png" />
+						<img
+							src="assets/custom_tech_2_image_large.png"
+							alt="product image"
+						>
 					</div>
 					<div class="card-body">
 						<p class="card-title">Customized - VR Experiences</p>
@@ -94,7 +107,10 @@
 				</div>
 				<div class="card">
 					<div class="card-img-container">
-						<img src="assets/custom_tech_3_image_large.png" />
+						<img
+							src="assets/custom_tech_3_image_large.png"
+							alt="product image"
+						>
 					</div>
 					<div class="card-body">
 						<p class="card-title">Customized - Laptops</p>
@@ -110,9 +126,13 @@
 			</div>
 		</section>
 		<section class="advertisment">
-			<img src="assets/flourish.png" class="advertisment-bg" />
+			<img src="assets/flourish.png" class="advertisment-bg" alt="logo style" >
 			<div class="advertisment-header">
-				<img src="assets/flourish_logo.png" class="advertisment-header-img" />
+				<img
+					src="assets/flourish_logo.png"
+					class="advertisment-header-img"
+					alt="background image"
+				>
 				<h3 class="advertisment-header-title">Top 6 Reasons to Shop here!</h3>
 			</div>
 			<ol class="advertisment-grid">
@@ -226,7 +246,11 @@
 			</div>
 		</section>
 		<section class="shipping">
-			<img src="assets/shipping_icon_large.png" class="shipping-icon" />
+			<img
+				src="assets/shipping_icon_large.png"
+				class="shipping-icon"
+				alt="truck icon"
+			>
 			<div class="shipping-faq">
 				<h3>We ship worldwide!</h3>
 				<p class="shipping-faq-title">WITHIN CANADA AND THE US</p>
@@ -242,7 +266,7 @@
 					leo quis risus tempor, hendrerit molestie felis dictum.
 				</p>
 			</div>
-			<img src="assets/to_top.png" class="shipping-to-top" />
+			<img src="assets/to_top.png" class="shipping-to-top" alt="to top icon" >
 		</section>
 		<section class="contact">
 			<div>
